@@ -27,7 +27,11 @@ Initiative Progress Tracker is a basic static website designed to display the pr
 
 ## Usage
 1. Update the progress percentage by modifying the `percentage` value in the `config.json` file.
-2. Start the local server:
+2. Run 
+    ```bash
+    npm i
+    ```
+3. Start the local server:
     ```bash
     npm start
     ```
@@ -43,7 +47,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
     ```
 3. Commit your changes:
     ```bash
-    git commit -am 'Add some feature'
+    git commit -m 'Add some feature'
     ```
 4. Push to the branch:
     ```bash
