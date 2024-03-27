@@ -1,5 +1,5 @@
 {
-  "name": "portifolio",
+  "name": "initiative",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
