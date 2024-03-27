@@ -4,7 +4,8 @@
   "description": "",
   "main": "Home.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "lite-server",
+    "build": "mkdir -p dist && cp -r src/* dist/"
   },
   "keywords": [],
   "author": "Laura Blanco",
