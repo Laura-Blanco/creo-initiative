@@ -7,7 +7,7 @@
     "start": "lite-server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Laura Blanco",
   "license": "MIT",
   "devDependencies": {
     "lite-server": "^2.6.1"
