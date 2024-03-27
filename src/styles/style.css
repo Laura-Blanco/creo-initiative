@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    color: #020000;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+}
+
+.topBar{
+    background: #020000;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+}
+
+.topBar-title{
+    color: #fff;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 16px;
+    font-size: 3vh;
+
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+.small-logo{
+    width: auto;
+    max-height: 100%; 
+    margin-left: 50px;
+    height: 50%;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.progressContainer {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.progressPercentage {
+    text-align: end;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.progressPercentage p:first-child {
+    color: #670000;
+    font-size: 3vw;
+    margin-bottom: 10px;
+    margin-right: 2vw;
+    margin-top: 2vw; 
+}
+
+.progressPercentage p:nth-child(2) {
+    font-size: 2vw;
+    color: #585858;
+    margin-right: 2vw;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.progressBar {
+    height: 3vw;
+    background-color: #A8A8A8;
+    border-radius: 1.5vw;
+    width: 100%;
+}
+
+.progressBar::-webkit-progress-bar {
+    background-color: #A8A8A8;
+    border-radius: 1.5vw;
+}
+
+.progressBar::-webkit-progress-value {
+    background-color: #b90000;
+    border-radius: 1.5vw;
+}
