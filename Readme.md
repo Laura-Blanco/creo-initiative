@@ -27,7 +27,7 @@ Initiative Progress Tracker is a basic static website designed to display the pr
 
 ## Usage
 1. Update the progress percentage by modifying the `percentage` value in the `config.json` file.
-2. Run 
+2. Install dependencies 
     ```bash
     npm i
     ```
