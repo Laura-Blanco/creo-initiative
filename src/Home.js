@@ -1,3 +1,4 @@
+// Fetches percentage from config.json and initializes progress bar animation based on value
 document.addEventListener("DOMContentLoaded", () => {
     fetch('config.json')
         .then(response => response.json())
@@ -10,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 });
 
+// Animates the progress bar to incrementally reach the specified percentage value
 function animateProgressBar(percentage) {
     const progressBar = document.getElementById("progressBar");
     const progressLabel = document.getElementById("progressLabel");

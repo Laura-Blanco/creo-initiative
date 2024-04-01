@@ -10,7 +10,7 @@ body{
     color: #020000;
 }
 
-#header{
+.pageContent{
     width: 100%;
     height: 100vh;
 }
@@ -30,7 +30,7 @@ body{
 
 }
 
-.container{
+.logo-container{
     padding: 10px 10%;
 }
 
@@ -41,7 +41,7 @@ body{
     height: 50%;
 }
 
-.logo{
+.large-logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -51,6 +51,8 @@ body{
 .progressContainer {
     width: 55%;
     margin: 0 auto;
+    margin-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 .progressPercentage {
